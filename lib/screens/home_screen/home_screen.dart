@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../constants.dart';
-import '../../cubit/popular_people/popular_people_cubit.dart';
+import '../../bloc/popular_people/popular_people_cubit.dart';
 import '../../widgets/error_page.dart';
 import '../../widgets/no_results_found.dart';
 import '../../widgets/popular_person_card.dart';

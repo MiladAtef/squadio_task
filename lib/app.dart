@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:squadio/screens/home_screen/home_screen.dart';
 import 'package:squadio/widgets/no_glow_scroll_behavior.dart';
 
-import 'cubit/popular_people/popular_people_cubit.dart';
+import 'bloc/popular_people/popular_people_cubit.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
