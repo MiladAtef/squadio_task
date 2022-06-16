@@ -1,16 +1,19 @@
-# squadio
+# Squadio Assessment Task
 
-A new Flutter project.
+## here are the app's features and functionalities
 
-## Getting Started
+- Home Screen with an infinite scrollable list of popular people.
+- Detailed view of a person's info and their photos and social media links.
+- Full screen image viewer with the option to save the image to the gallery.
+- Caching home list of data locally to be used when there is no internet.
+- Native Splash Screen. (squadio logo)
+- Launcher Icons. (squadio logo)
 
-This project is a starting point for a Flutter application.
+## Some screenshots from the app
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="./screenshots/1.png" width="300"/>
+<img src="./screenshots/2.png" width="300"/>
+<img src="./screenshots/3.png" width="300"/>
+<img src="./screenshots/4.png" width="300">
+<img src="./screenshots/5.png" width="300"/>
+<img src="./screenshots/6.png" width="300"/>
