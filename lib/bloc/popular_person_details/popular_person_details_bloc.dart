@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../data/fetch_person_details.dart';
-import '../../../models/cast_info_model.dart';
+import '../../../models/popular_person_info.dart';
 import '../../../models/error_model.dart';
 import '../../models/person_image_model.dart';
 

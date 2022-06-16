@@ -9,7 +9,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../animation.dart';
 import '../../bloc/popular_person_details/popular_person_details_bloc.dart';
 import '../../constants.dart';
-import '../../models/cast_info_model.dart';
+import '../../models/popular_person_info.dart';
 
 import '../../models/person_image_model.dart';
 import '../../widgets/app_bar.dart';

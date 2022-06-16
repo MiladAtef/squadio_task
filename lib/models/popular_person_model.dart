@@ -1,10 +1,20 @@
-class PopularPersonModel {
-  final String image;
-  final String name;
-  final String id;
-  final String knownForDepartment;
-  final String gender;
+import 'package:hive/hive.dart';
 
+part 'popular_person_model.g.dart';
+
+@HiveType(typeId: 1)
+class PopularPersonModel {
+  @HiveField(0)
+  final String image;
+  @HiveField(1)
+  final String name;
+  @HiveField(2)
+  final String id;
+  @HiveField(3)
+  final String knownForDepartment;
+  @HiveField(4)
+  final String gender;
+  @HiveField(5)
   PopularPersonModel({
     required this.image,
     required this.name,

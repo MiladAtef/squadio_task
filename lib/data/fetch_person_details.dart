@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import '../constants.dart';
-import '../models/cast_info_model.dart';
+import '../models/popular_person_info.dart';
 import '../models/error_model.dart';
 import '../models/person_image_model.dart';
 
