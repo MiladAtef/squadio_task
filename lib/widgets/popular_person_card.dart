@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../animation.dart';
 import '../bloc/popular_person_details/popular_person_details_bloc.dart';
 import '../constants.dart';
-import '../screens/home_screen/popular_person_details_screen.dart';
+import '../screens/popular_person_details_screen.dart';
 
 class PopularPersonCard extends StatelessWidget {
   final String id;

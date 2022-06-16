@@ -70,9 +70,9 @@ class SocialMediaInfo {
   factory SocialMediaInfo.fromJson(json) {
     return SocialMediaInfo(
       facebook: json['facebook_id'] != null ? 'https://facebook.com/${json['facebook_id']}' : '',
-      imdbId: json['imdb_id'] != null ? 'https://www.imdb.com/name${json['imdb_id']}/' : '',
-      instagram: json['instagram_id'] != null ? 'https://www.instagram.com${json['instagram_id']}/' : '',
-      twitter: json['twitter_id'] != null ? 'https://twitter.com${json['twitter_id']}/' : '',
+      imdbId: json['imdb_id'] != null ? 'https://www.imdb.com/name/${json['imdb_id']}' : '',
+      instagram: json['instagram_id'] != null ? 'https://www.instagram.com/${json['instagram_id']}' : '',
+      twitter: json['twitter_id'] != null ? 'https://twitter.com/${json['twitter_id']}' : '',
     );
   }
 }

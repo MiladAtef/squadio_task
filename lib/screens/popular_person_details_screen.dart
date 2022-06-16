@@ -6,17 +6,17 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:readmore/readmore.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../animation.dart';
-import '../../bloc/popular_person_details/popular_person_details_bloc.dart';
-import '../../constants.dart';
-import '../../models/popular_person_info.dart';
+import '../animation.dart';
+import '../bloc/popular_person_details/popular_person_details_bloc.dart';
+import '../constants.dart';
+import '../models/popular_person_info.dart';
 
-import '../../models/person_image_model.dart';
-import '../../widgets/app_bar.dart';
-import '../../widgets/create_icons.dart';
-import '../../widgets/draggable_sheet.dart';
-import '../../widgets/error_page.dart';
-import '../../widgets/image_view.dart';
+import '../models/person_image_model.dart';
+import '../widgets/app_bar.dart';
+import '../widgets/create_icons.dart';
+import '../widgets/draggable_sheet.dart';
+import '../widgets/error_page.dart';
+import '../widgets/image_view.dart';
 
 class CastInFoScreen extends StatefulWidget {
   final String id;

@@ -3,11 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:squadio/models/popular_person_model.dart';
 
-import '../../constants.dart';
-import '../../bloc/popular_people/popular_people_cubit.dart';
-import '../../widgets/error_page.dart';
-import '../../widgets/no_results_found.dart';
-import '../../widgets/popular_person_card.dart';
+import '../constants.dart';
+import '../bloc/popular_people/popular_people_cubit.dart';
+import '../widgets/error_page.dart';
+import '../widgets/no_results_found.dart';
+import '../widgets/popular_person_card.dart';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 
